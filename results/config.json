@@ -1,0 +1,98 @@
+{
+  "QUICK": false,
+  "ROOT": "/kaggle/working/PQD_paper",
+  "F0": 50.0,
+  "FS": 3200.0,
+  "N_CYC": 10,
+  "N": 640,
+  "T": 0.02,
+  "W": 314.1592653589793,
+  "CLASSES": [
+    "Normal",
+    "Sag",
+    "Swell",
+    "Interruption",
+    "Harmonics",
+    "Flicker",
+    "Osc. transient",
+    "Imp. transient",
+    "Notch",
+    "Spike",
+    "Sag+Harm",
+    "Swell+Harm",
+    "Interr.+Harm",
+    "Flicker+Harm",
+    "Flicker+Sag",
+    "Flicker+Swell"
+  ],
+  "NC": 16,
+  "N_TRAIN": 4000,
+  "N_VAL": 500,
+  "N_TEST": 300,
+  "TRAIN_SNR": [
+    20.0,
+    50.0
+  ],
+  "CLEAN_FRAC": 0.1,
+  "TEST_SNRS": [
+    null,
+    50,
+    40,
+    30,
+    20,
+    10
+  ],
+  "FDEV_RANGE": [
+    49.5,
+    50.5
+  ],
+  "FDEV_SNR": 30,
+  "DATA_SEEDS": {
+    "train": 2026,
+    "val": 2027,
+    "test": 2028
+  },
+  "SEEDS": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "EPOCHS": 120,
+  "PATIENCE": 12,
+  "BATCH": 64,
+  "LR": 0.001,
+  "FT_EPOCHS": 30,
+  "FT_LR": 0.0003,
+  "QAT_EPOCHS": 20,
+  "QAT_LR": 0.0001,
+  "UNSTR_EPOCHS": 30,
+  "PRUNE_STEPS": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "UNSTR_TARGETS": [
+    0.5,
+    0.75
+  ],
+  "CALIB_N": 300,
+  "LAT_RUNS": 300,
+  "LAT_WARMUP": 30,
+  "ARCHS": [
+    "cnn",
+    "ccanet"
+  ],
+  "VARIANTS": [
+    "fp32",
+    "ptq_int8",
+    "qat_int8",
+    "sp50",
+    "sp75",
+    "sp50_qat",
+    "sp75_qat",
+    "up50",
+    "up75"
+  ]
+}

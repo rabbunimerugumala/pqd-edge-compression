@@ -1,0 +1,10 @@
+{"seed": 42, "arch": "cnn", "fp32_epochs": 107, "fp32_train_s": 352.34051847457886, "qat_mode": "full", "total_s": 1271.3688352108002}
+{"seed": 42, "arch": "ccanet", "fp32_epochs": 60, "fp32_train_s": 193.08440923690796, "qat_mode": "annotated (output-quantized Multiply/BN)", "total_s": 1158.292223930359}
+{"seed": 43, "arch": "cnn", "fp32_epochs": 120, "fp32_train_s": 411.2056450843811, "qat_mode": "full", "total_s": 1300.8592529296875}
+{"seed": 43, "arch": "ccanet", "fp32_epochs": 30, "fp32_train_s": 97.67216277122498, "qat_mode": "annotated (output-quantized Multiply/BN)", "total_s": 1094.245888710022}
+{"seed": 44, "arch": "cnn", "fp32_epochs": 82, "fp32_train_s": 278.06606364250183, "qat_mode": "full", "total_s": 1251.2106614112854}
+{"seed": 44, "arch": "ccanet", "fp32_epochs": 53, "fp32_train_s": 169.8643834590912, "qat_mode": "annotated (output-quantized Multiply/BN)", "total_s": 1126.17338180542}
+{"seed": 45, "arch": "cnn", "fp32_epochs": 84, "fp32_train_s": 283.5642716884613, "qat_mode": "full", "total_s": 1196.3474235534668}
+{"seed": 45, "arch": "ccanet", "fp32_epochs": 65, "fp32_train_s": 206.28606128692627, "qat_mode": "annotated (output-quantized Multiply/BN)", "total_s": 1156.3802962303162}
+{"seed": 46, "arch": "cnn", "fp32_epochs": 94, "fp32_train_s": 315.1188952922821, "qat_mode": "full", "total_s": 1277.0671651363373}
+{"seed": 46, "arch": "ccanet", "fp32_epochs": 93, "fp32_train_s": 294.4797110557556, "qat_mode": "annotated (output-quantized Multiply/BN)", "total_s": 1208.1811854839325}
